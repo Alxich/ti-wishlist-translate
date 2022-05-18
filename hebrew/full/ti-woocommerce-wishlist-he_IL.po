@@ -1,0 +1,1942 @@
+# Copyright (C) 2022 TI WooCommerce Wishlist Plugin - 1.44.1
+# This file is distributed under the same license as the TI WooCommerce Wishlist Plugin - 1.44.1 package.
+msgid ""
+msgstr ""
+"Project-Id-Version: TI WooCommerce Wishlist Plugin - 1.44.1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Transfer-Econdig: 8bit\n"
+"Language-Team: Hebrew\n"
+"Last-Translator: Michael\n"
+"Report-Msgid-Bugs-To: https://templateinvaders.com/help/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:"
+"1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"POT-Creation-Date: 2022-05-18 09:02+0000\n"
+"PO-Revision-Date: 2022-05-18 09:41+0000\n"
+"Language: he-IL\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.1; wp-5.9.3"
+
+#: admin/basestyle.helper.php:58
+msgid "Templates"
+msgstr "תבניות"
+
+#: admin/basestyle.helper.php:65
+msgid "Use Theme style"
+msgstr "השתמש בסגנון עיצוב"
+
+#: admin/basestyle.helper.php:74
+msgid "Template Options"
+msgstr "אפשרויות תבנית"
+
+#: admin/basestyle.helper.php:82, admin/basestyle.helper.php:89
+msgid "Template Custom CSS"
+msgstr "תבנית CSS מותאמת אישית"
+
+#: admin/basestyle.helper.php:115, admin/settings/general.class.php:918, 
+#: admin/settings/integrations.class.php:115
+msgid "Save Settings"
+msgstr "שמור הגדרות"
+
+#: admin/basestyle.helper.php:121, admin/settings/general.class.php:924
+msgid "Reset"
+msgstr "אִתחוּל"
+
+#: admin/basestyle.helper.php:127, admin/settings/general.class.php:930, 
+#: admin/settings/integrations.class.php:121
+msgid "Save"
+msgstr "להציל"
+
+#: admin/settings/general.class.php:73, admin/settings/general.class.php:113
+msgid "General Settings"
+msgstr "הגדרות כלליות"
+
+#: admin/settings/general.class.php:87, admin/settings/general.class.php:381, 
+#: admin/settings/general.class.php:522, admin/settings/general.class.php:795
+msgid "None"
+msgstr "אף אחד"
+
+#: admin/settings/general.class.php:114
+msgid ""
+"Wishlist page needs to be selected so the plugin knows where it is. This "
+"page should be created upon installation of the plugin, if not you will need "
+"to create it manually."
+msgstr ""
+"יש לבחור את דף המשאלות כדי שהתוסף יידע היכן הוא נמצא. דף זה צריך להיווצר עם "
+"התקנת התוסף, אם לא תצטרך ליצור אותו באופן ידני."
+
+#: admin/settings/general.class.php:120, views/wizard/step-page.php:28
+msgid "Default Wishlist Name"
+msgstr "שם ברירת מחדל"
+
+#: admin/settings/general.class.php:126, admin/tinvwl.class.php:442
+msgid "Wishlist Page"
+msgstr "עמוד משאלות"
+
+#: admin/settings/general.class.php:134
+msgid "Require Login"
+msgstr "דרוש כניסה"
+
+#: admin/settings/general.class.php:135
+msgid "Disallows guests to use Wishlist functionality until they sign-in."
+msgstr "לא מאפשר לאורחים להשתמש בפונקציונליות ברשימת המשאלות עד שייכנסו."
+
+#: admin/settings/general.class.php:144
+msgid "Redirect to Login Page"
+msgstr "הפנה מחדש לדף התחברות"
+
+#: admin/settings/general.class.php:145
+msgid ""
+"Currently this option could not be changed because \"Show successful notice "
+"in popup\" is disabled. Guests will be redirected automatically to a login "
+"page."
+msgstr ""
+"נכון לעכשיו לא ניתן היה לשנות אפשרות זו מכיוון ש\"הצג הודעה מוצלחת בחלון "
+"קופץ\" מושבת. האורחים יופנו אוטומטית לדף התחברות."
+
+#: admin/settings/general.class.php:145
+msgid ""
+"If enabled, guests will be redirected to a login page once clicking the "
+"\"Add to Wishlist\" button or \"Wishlist Products Counter\" link. Otherwise "
+"a popup with login required notice will appear."
+msgstr ""
+"אם מופעלת, האורחים יופנו לדף התחברות לאחר לחיצה על כפתור \"הוסף לרשימת "
+"משאלות\" או הקישור \"דלפק מוצרים של רשימת משאלות\". אחרת יופיע חלון קופץ עם "
+"הודעה נדרשת להתחבר."
+
+#: admin/settings/general.class.php:152
+msgid "Show Link to Wishlist in my account"
+msgstr "הצג קישור לרשימת משאלות בחשבון שלי"
+
+#: admin/settings/general.class.php:158
+msgid "Remove Product from Wishlist if added to cart"
+msgstr "הסר את המוצר מרשימת המשאלות אם הוא הוסף לעגלה"
+
+#: admin/settings/general.class.php:165, admin/settings/general.class.php:339
+msgid "Remove by anyone"
+msgstr "הסר על ידי כל אחד"
+
+#: admin/settings/general.class.php:172, admin/settings/general.class.php:332
+msgid "Redirect to the checkout page from Wishlist if added to cart"
+msgstr "הפנה לדף התשלום מתוך רשימת משאלות אם הוסף לעגלה"
+
+#: admin/settings/general.class.php:178
+msgid "Remove product from Wishlist on second click"
+msgstr "הסר את המוצר מרשימת המשאלות בלחיצה שנייה"
+
+#: admin/settings/general.class.php:192
+msgid "Show successful notice in popup"
+msgstr "הצג הודעה מוצלחת בחלון קופץ"
+
+#: admin/settings/general.class.php:193
+msgid ""
+"This option allows to show/hide a popup with successful or error notices "
+"after addition or removing products from a Wishlist."
+msgstr ""
+"אפשרות זו מאפשרת להציג/להסתיר חלון קופץ עם הודעות מוצלחות או שגיאות לאחר "
+"הוספה או הסרה של מוצרים מרשימת משאלות."
+
+#: admin/settings/general.class.php:203
+msgid "\"View Wishlist\" button Text"
+msgstr "כפתור \"הצג משאלות\" טקסט"
+
+#: admin/settings/general.class.php:210
+msgid "Redirect to Wishlist"
+msgstr "הפנה מחדש לרשימת משאלות"
+
+#: admin/settings/general.class.php:211
+msgid ""
+"If enabled, user will be redirected to wishlist page after 5 sec from adding "
+"product to wishlist."
+msgstr ""
+"אם מופעל, המשתמש יופנה לדף רשימת המשאלות לאחר 5 שניות מהוספת המוצר לרשימת "
+"המשאלות."
+
+#: admin/settings/general.class.php:218
+msgid "\"Product added to Wishlist\" Text"
+msgstr "טקסט \"מוצר נוסף לרשימת המשאלות\"."
+
+#: admin/settings/general.class.php:220, admin/settings/general.class.php:227
+msgid ""
+"You can use next placeholder in this field to get current product name: "
+"<code>{product_name}</code>, <code>{product_sku}</code>"
+msgstr ""
+"אתה יכול להשתמש במציין המיקום הבא בשדה זה כדי לקבל את שם המוצר הנוכחי: <code>"
+"{product_name}</code>, <code>{product_sku}</code>"
+
+#: admin/settings/general.class.php:226
+msgid "\"Product already in Wishlist\" Text"
+msgstr "טקסט \"מוצר כבר ברשימת משאלות\"."
+
+#: admin/settings/general.class.php:227
+msgid ""
+"This notification will be shown if user will try to add a product that is "
+"already in the wishlist. "
+msgstr "הודעה זו תוצג אם המשתמש ינסה להוסיף מוצר שכבר נמצא ברשימת המשאלות."
+
+#: admin/settings/general.class.php:234
+msgid "\"Product removed from Wishlist\" Text"
+msgstr "טקסט \"מוצר הוסר מרשימת המשאלות\"."
+
+#: admin/settings/general.class.php:235
+msgid ""
+"This notification will be shown once the product is removed from Wishlist on "
+"a single or a catalog page."
+msgstr "הודעה זו תוצג ברגע שהמוצר יוסר מרשימת המשאלות בדף בודד או בקטלוג."
+
+#: admin/settings/general.class.php:243
+msgid "Permalinks Settings"
+msgstr "הגדרות קישורים קבועים"
+
+#: admin/settings/general.class.php:249
+msgid "Force permalinks rewrite"
+msgstr "כפה על שכתוב של קישורים קבועים"
+
+#: admin/settings/general.class.php:250
+msgid ""
+"This option should be enabled to avoid any issues with URL rewrites between "
+"other plugins and Wishlist"
+msgstr ""
+"אפשרות זו צריכה להיות מופעלת כדי למנוע בעיות כלשהן עם שכתוב כתובות אתרים בין "
+"תוספים אחרים למשאלות"
+
+#: admin/settings/general.class.php:258
+msgid "Rename wishlist Settings"
+msgstr "שנה את שם ההגדרות של רשימת המשאלות"
+
+#: admin/settings/general.class.php:264
+msgid "Rename wishlist word across the plugin"
+msgstr "שנה את שם מילת המשאלות על פני הפלאגין"
+
+#: admin/settings/general.class.php:265
+msgid ""
+"These options allow changing word <code>wishlist</code> across all plugin "
+"instance"
+msgstr ""
+"אפשרויות אלו מאפשרות לשנות את המילה <code>wishlist</code> בכל מופעי הפלאגין"
+
+#: admin/settings/general.class.php:272
+msgid "Single form"
+msgstr "טופס בודד"
+
+#: admin/settings/general.class.php:273
+msgid ""
+"This option allowing you to change a single form of the word. You need to "
+"write a new word in lowercase and the proper case will be applied "
+"automatically for all instances."
+msgstr ""
+"אפשרות זו מאפשרת לך לשנות צורה בודדת של המילה. אתה צריך לכתוב מילה חדשה "
+"באותיות קטנות והאות המתאים יוחל אוטומטית בכל המקרים."
+
+#: admin/settings/general.class.php:280
+msgid "Plural form"
+msgstr "צורת רבים"
+
+#: admin/settings/general.class.php:281
+msgid ""
+"This option allowing you to change a plural form of the word. Left it empty "
+"if you need to add just \"s\" suffix to the single form word that you set "
+"above."
+msgstr ""
+"אפשרות זו מאפשרת לך לשנות צורת רבים של המילה. השאר אותו ריק אם אתה צריך "
+"להוסיף רק סיומת \"s\" למילת הצורה היחידה שהגדרת למעלה."
+
+#: admin/settings/general.class.php:290
+msgid "Wishlist Page Options"
+msgstr "אפשרויות עמוד ברשימת משאלות"
+
+#: admin/settings/general.class.php:291, admin/settings/general.class.php:308
+msgid "Coming soon"
+msgstr "בקרוב"
+
+#: admin/settings/general.class.php:298
+msgid "My Wishlist"
+msgstr "רשימת המשאלות שלי"
+
+#: admin/settings/general.class.php:307
+msgid "Wishlist Processing Options"
+msgstr "אפשרויות עיבוד ברשימת משאלות"
+
+#: admin/settings/general.class.php:315
+msgid "Automatic removal"
+msgstr "הסרה אוטומטית"
+
+#: admin/settings/general.class.php:322
+msgid "Remove condition"
+msgstr "הסר מצב"
+
+#: admin/settings/general.class.php:325
+msgid "Add to Cart"
+msgstr "הוסף לעגלה"
+
+#: admin/settings/general.class.php:347
+msgid "Product page \"Add to Wishlist\" Button Settings"
+msgstr "עמוד מוצר \"הוסף לרשימת המשאלות\" הגדרות כפתור"
+
+#: admin/settings/general.class.php:353, admin/settings/general.class.php:496, 
+#: views/wizard/step-button.php:33
+msgid "Button position"
+msgstr "מיקום הכפתור"
+
+#: admin/settings/general.class.php:354
+msgid ""
+"Add this shortcode <code>[ti_wishlists_addtowishlist]</code> anywhere on "
+"product page, if you have chosen custom position for product button. You "
+"will have to do this for each product."
+msgstr ""
+"הוסף את הקוד הקצר הזה <code>[ti_wishlists_addtowishlist]</code> בכל מקום בדף "
+"המוצר, אם בחרת במיקום מותאם אישית עבור כפתור המוצר. תצטרך לעשות זאת עבור כל "
+"מוצר."
+
+#: admin/settings/general.class.php:357, admin/settings/general.class.php:499, 
+#: includes/wizard.class.php:440
+msgid "After \"Add to Cart\" button"
+msgstr "לאחר כפתור \"הוסף לעגלה\"."
+
+#: admin/settings/general.class.php:358, admin/settings/general.class.php:500, 
+#: includes/wizard.class.php:441
+msgid "Before \"Add to Cart\" button"
+msgstr "לפני כפתור \"הוסף לעגלה\"."
+
+#: admin/settings/general.class.php:359
+msgid "After Thumbnails"
+msgstr "אחרי תמונות ממוזערות"
+
+#: admin/settings/general.class.php:360
+msgid "After summary"
+msgstr "אחרי סיכום"
+
+#: admin/settings/general.class.php:361, admin/settings/general.class.php:502, 
+#: includes/wizard.class.php:442
+msgid "Custom position with code"
+msgstr "מיקום מותאם אישית עם קוד"
+
+#: admin/settings/general.class.php:367, admin/settings/general.class.php:509
+msgid "Button custom CSS class"
+msgstr "כפתור מחלקת CSS מותאמת אישית"
+
+#: admin/settings/general.class.php:368, admin/settings/general.class.php:510
+msgid ""
+"You can add custom CSS classes to button markup separated by spaces. Most of "
+"themes using <code>button</code> class for this type of buttons."
+msgstr ""
+"אתה יכול להוסיף מחלקות CSS מותאמות אישית לסימון כפתורים מופרדים ברווחים. רוב "
+"ערכות הנושא משתמשות במחלקה <code>button</code> עבור סוג זה של לחצנים."
+
+#: admin/settings/general.class.php:377, admin/settings/general.class.php:519
+msgid "\"Add to Wishlist\" Icon"
+msgstr "סמל \"הוסף לרשימת המשאלות\"."
+
+#: admin/settings/general.class.php:378, admin/settings/general.class.php:800
+msgid ""
+"You can choose from our predefined icons or upload your custom icon. Custom "
+"icon size is limited to 16x16 px."
+msgstr ""
+"אתה יכול לבחור מהסמלים המוגדרים מראש שלנו או להעלות את הסמל המותאם אישית שלך."
+" גודל הסמל המותאם אישית מוגבל ל-16x16 פיקסלים."
+
+#: admin/settings/general.class.php:382, admin/settings/general.class.php:523, 
+#: admin/settings/general.class.php:796
+msgid "Heart"
+msgstr "לֵב"
+
+#: admin/settings/general.class.php:383, admin/settings/general.class.php:524, 
+#: admin/settings/general.class.php:797
+msgid "Heart+"
+msgstr "לב+"
+
+#: admin/settings/general.class.php:384, admin/settings/general.class.php:525, 
+#: admin/settings/general.class.php:798
+msgid "Custom"
+msgstr "המותאם אישית"
+
+#: admin/settings/general.class.php:401, admin/settings/general.class.php:541, 
+#: admin/settings/general.class.php:815
+msgid "Upload"
+msgstr "העלה"
+
+#: admin/settings/general.class.php:410, admin/settings/general.class.php:550
+msgid "\"Add to Wishlist\" Icon Color"
+msgstr "צבע סמל \"הוסף לרשימת משאלות\"."
+
+#: admin/settings/general.class.php:412, admin/settings/general.class.php:552, 
+#: admin/settings/general.class.php:775, admin/settings/general.class.php:826
+msgid "Use font color"
+msgstr "השתמש בצבע גופן"
+
+#: admin/settings/general.class.php:413, admin/settings/general.class.php:553, 
+#: admin/settings/general.class.php:827
+msgid "Black"
+msgstr "שָׁחוֹר"
+
+#: admin/settings/general.class.php:414, admin/settings/general.class.php:554, 
+#: admin/settings/general.class.php:777, admin/settings/general.class.php:828
+msgid "White"
+msgstr "לבן"
+
+#: admin/settings/general.class.php:421, admin/settings/general.class.php:561
+msgid "Show preloader"
+msgstr "הצג מראש טעינה"
+
+#: admin/settings/general.class.php:422, admin/settings/general.class.php:562
+msgid ""
+"If enabled, applies animation for the button icon until product adding or "
+"removing processed. (Usable for servers with slow connection mostly.)"
+msgstr ""
+"אם מופעל, החל הנפשה עבור סמל הכפתור עד לעיבוד הוספה או הסרה של המוצר. (שמיש "
+"לשרתים עם חיבור איטי בעיקר.)"
+
+#: admin/settings/general.class.php:428, admin/settings/general.class.php:568
+msgid "Show button text"
+msgstr "הצג טקסט לחצן"
+
+#: admin/settings/general.class.php:443
+msgid "\"Add to Wishlist\" button Text"
+msgstr "כפתור \"הוסף לרשימת המשאלות\" טקסט"
+
+#: admin/settings/general.class.php:449, admin/settings/general.class.php:589
+msgid "Show \"Already In Wishlist\" button Text"
+msgstr "הצג כפתור \"כבר ברשימת המשאלות\" טקסט"
+
+#: admin/settings/general.class.php:459, admin/settings/general.class.php:599
+msgid "\"Already In Wishlist\" button Text"
+msgstr "כפתור \"כבר ברשימת המשאלות\" טקסט"
+
+#: admin/settings/general.class.php:466, admin/settings/general.class.php:606
+msgid "\"Remove from Wishlist\" Button Text"
+msgstr "טקסט לחצן \"הסר מרשימת המשאלות\"."
+
+#: admin/settings/general.class.php:474
+msgid "Product listing Button Settings"
+msgstr "הגדרות לחצן רישום מוצר"
+
+#: admin/settings/general.class.php:475
+msgid ""
+"These are separate settings for the \"Add to Wishlist\" button on a product "
+"listing (Shop page, categories, etc.). You can also adjust button and text "
+"colors, size, etc. in a <code>TI Wishlist > Style Options.</code>"
+msgstr ""
+"אלו הן הגדרות נפרדות עבור כפתור \"הוסף לרשימת משאלות\" ברשימת מוצר (דף חנות, "
+"קטגוריות וכו'). אתה יכול גם להתאים את צבעי הלחצנים והטקסט, גודל וכו' ב<code>"
+"TI wishlist > אפשרויות סגנון.</code>"
+
+#: admin/settings/general.class.php:481
+msgid "Show in Product Listing"
+msgstr "הצג ברשימת מוצר"
+
+#: admin/settings/general.class.php:501
+msgid "Above Thumbnail"
+msgstr "מעל התמונה הממוזערת"
+
+#: admin/settings/general.class.php:504
+msgid ""
+"Note: if \"Custom position with code\" option is applied, the \"Add to "
+"Wishlist\" button should be added into template using <code>do_shortcode()"
+"</code> function like this:<br /><code>"
+"do_shortcode(\"[ti_wishlists_addtowishlist loop=yes]\")</code>"
+msgstr ""
+"הערה: אם מוחלת האפשרות \"מיקום מותאם אישית עם קוד\", יש להוסיף את הלחצן "
+"\"הוסף לרשימת המשאלות\" לתבנית באמצעות הפונקציה <code>do_shortcode()</code> "
+"כך:<br /><code>do_shortcode(\" [ti_wishlists_addtowishlist loop=yes]\")"
+"</code>"
+
+#: admin/settings/general.class.php:583, views/wizard/step-button.php:42
+msgid "\"Add to Wishlist\" Text"
+msgstr "טקסט \"הוסף לרשימת משאלות\"."
+
+#: admin/settings/general.class.php:614
+msgid "Wishlist Product Settings"
+msgstr "הגדרות מוצר ברשימת משאלות"
+
+#: admin/settings/general.class.php:615
+msgid ""
+"Following options allows you to choose what information/functionality to "
+"show/enable in wishlist table on wishlist page."
+msgstr ""
+"האפשרויות הבאות מאפשרות לך לבחור איזה מידע/פונקציונליות להציג/לאפשר בטבלת "
+"רשימת המשאלות בדף רשימת המשאלות."
+
+#: admin/settings/general.class.php:621
+msgid "Show \"Add to Cart\" button"
+msgstr "הצג את כפתור \"הוסף לעגלה\"."
+
+#: admin/settings/general.class.php:628
+msgid "\"Add to Cart\" Text"
+msgstr "טקסט \"הוסף לעגלה\"."
+
+#: admin/settings/general.class.php:635
+msgid "Show Unit price"
+msgstr "הצג מחיר יחידה"
+
+#: admin/settings/general.class.php:641
+msgid "Show Stock status"
+msgstr "הצג סטטוס מלאי"
+
+#: admin/settings/general.class.php:647
+msgid "Show Date of addition"
+msgstr "הצג את תאריך ההוספה"
+
+#: admin/settings/general.class.php:654
+msgid "Wishlist Table Settings"
+msgstr "הגדרות טבלה ברשימת משאלות"
+
+#: admin/settings/general.class.php:655
+msgid ""
+"Following options will help user to manage and add products to cart from "
+"wishlist table in bulk."
+msgstr ""
+"האפשרויות הבאות יעזרו למשתמש לנהל ולהוסיף מוצרים לעגלה מטבלת רשימת המשאלות "
+"בכמויות גדולות."
+
+#: admin/settings/general.class.php:661
+msgid "Show Checkboxes"
+msgstr "הצג תיבות סימון"
+
+#: admin/settings/general.class.php:673
+msgid "Show Actions button"
+msgstr "הצג כפתור פעולות"
+
+#: admin/settings/general.class.php:674
+msgid "Bulk actions drop down at the bottom of wishlist table"
+msgstr "פעולות בכמות גדולה נפתחות בתחתית טבלת רשימת המשאלות"
+
+#: admin/settings/general.class.php:680
+msgid "Show \"Add Selected to Cart\" button"
+msgstr "הצג את כפתור \"הוסף נבחרים לעגלה\"."
+
+#: admin/settings/general.class.php:687
+msgid "\"Add Selected to Cart\" Button Text"
+msgstr "טקסט לחצן \"הוסף נבחרים לעגלה\"."
+
+#: admin/settings/general.class.php:698
+msgid "Show \"Add All to Cart\" button"
+msgstr "הצג את כפתור \"הוסף הכל לעגלה\"."
+
+#: admin/settings/general.class.php:705
+msgid "\"Add All to Cart\" Button Text"
+msgstr "טקסט לחצן \"הוסף הכל לעגלה\"."
+
+#: admin/settings/general.class.php:718
+msgid ""
+"Following options enable/disable Social share icons below wishlist table on "
+"wishlist page. Wishlist owner can easily share their wishlists using this "
+"button on social networks. Wishlist privacy should be set to public or "
+"shared status, private wishlists can't be shared."
+msgstr ""
+"האפשרויות הבאות מפעילות/השבתות את סמלי השיתוף החברתי מתחת לטבלת רשימת "
+"המשאלות בדף רשימת המשאלות. בעל המשאלות יכול לשתף בקלות את רשימות המשאלות שלו "
+"באמצעות הכפתור הזה ברשתות חברתיות. פרטיות ברשימת המשאלות צריכה להיות מוגדרת "
+"למצב ציבורי או משותף, לא ניתן לשתף רשימות משאלות פרטיות."
+
+#: admin/settings/general.class.php:724
+msgid "Social Networks Sharing Options"
+msgstr "אפשרויות שיתוף ברשתות חברתיות"
+
+#: admin/settings/general.class.php:730, views/wizard/step-social.php:26
+msgid "Show \"Facebook\" Button"
+msgstr "הצג את כפתור \"פייסבוק\"."
+
+#: admin/settings/general.class.php:736, views/wizard/step-social.php:35
+msgid "Show \"Twitter\" Button"
+msgstr "הצג את כפתור \"טוויטר\"."
+
+#: admin/settings/general.class.php:742, views/wizard/step-social.php:44
+msgid "Show \"Pinterest\" Button"
+msgstr "הצג את כפתור \"Pinterest\"."
+
+#: admin/settings/general.class.php:748, views/wizard/step-social.php:53
+msgid "Show \"WhatsApp\" Button"
+msgstr "הצג את כפתור \"וואטסאפ\"."
+
+#: admin/settings/general.class.php:754
+msgid "Show \"Copy to clipboard\" Button"
+msgstr "הצג את לחצן \"העתק ללוח\"."
+
+#: admin/settings/general.class.php:760, views/wizard/step-social.php:71
+msgid "Show \"Share by Email\" Button"
+msgstr "הצג את כפתור \"שתף באימייל\"."
+
+#: admin/settings/general.class.php:766
+msgid "\"Share on\" Text"
+msgstr "טקסט \"שתף ב\"."
+
+#: admin/settings/general.class.php:772
+msgid "Social Icons Color"
+msgstr "צבע סמלים חברתיים"
+
+#: admin/settings/general.class.php:776
+msgid "Dark"
+msgstr "אפל"
+
+#: admin/settings/general.class.php:785
+msgid "Wishlist Product Counter"
+msgstr "דלפק מוצר ברשימת משאלות"
+
+#: admin/settings/general.class.php:786
+msgid ""
+"Add this shortcode <code>[ti_wishlist_products_counter]</code> anywhere into "
+"a page content to show Wishlist Counter.<br/><br/>It can be also added as a "
+"widget <code>Wishlist Products Counter</code> under the <a href=\"%s\">"
+"Appearance -> Widgets</a> section."
+msgstr ""
+"הוסף את הקוד הקצר הזה <code>[ti_wishlist_products_counter]</code> בכל מקום "
+"לתוכן הדף כדי להציג את מונה המשאלות.<br/><br/>ניתן להוסיף אותו גם כווידג'ט "
+"<code>Wishlist Products Counter</code> תחת הקטע <a href=\"%s\">מראה -> "
+"ווידג'טים</a>."
+
+#: admin/settings/general.class.php:792
+msgid "\"Wishlist\" Counter Icon"
+msgstr "סמל הדלפק של \"רשימת משאלות\"."
+
+#: admin/settings/general.class.php:824
+msgid "\"Wishlist\" Counter Icon Color"
+msgstr "צבע סמל הדלפק של \"רשימת משאלות\"."
+
+#: admin/settings/general.class.php:835
+msgid "Show \"Wishlist\" Counter Text"
+msgstr "הצג טקסט נגדי \"רשימת משאלות\"."
+
+#: admin/settings/general.class.php:844
+msgid "\"Wishlist\" Counter Text"
+msgstr "טקסט נגדי \"רשימת משאלות\"."
+
+#: admin/settings/general.class.php:845
+msgid "Wishlist - "
+msgstr "רשימת משאלות -"
+
+#: admin/settings/general.class.php:851
+msgid "Add counter to menu"
+msgstr "הוסף מונה לתפריט"
+
+#: admin/settings/general.class.php:853
+msgid "You can add a wishlist products counter as item to the selected menu."
+msgstr "אתה יכול להוסיף מונה רשימת מוצרים כפריט לתפריט הנבחר."
+
+#: admin/settings/general.class.php:862
+msgid "Counter position (Menu item order)"
+msgstr "עמדת מונה (הזמנת פריט בתפריט)"
+
+#: admin/settings/general.class.php:863
+msgid ""
+"Allows you to add the wishlist counter as a menu item and apply its position."
+msgstr "מאפשר לך להוסיף את מונה רשימת המשאלות כפריט בתפריט ולהחיל את מיקומו."
+
+#: admin/settings/general.class.php:874
+msgid "Show number of products in counter"
+msgstr "הצג מספר מוצרים בדלפק"
+
+#: admin/settings/general.class.php:883
+msgid "Hide zero value"
+msgstr "הסתר ערך אפס"
+
+#: admin/settings/general.class.php:884
+msgid "Do not show the \"0\" value in a counter if wishlist is empty."
+msgstr "אל תציג את הערך \"0\" במונה אם רשימת המשאלות ריקה."
+
+#: admin/settings/general.class.php:895
+msgid "Support Chat Settings"
+msgstr "תמיכה בהגדרות צ'אט"
+
+#: admin/settings/general.class.php:896, views/wizard/step-support.php:22
+msgid ""
+"Enable the support chat to get the most from our service and get answers to "
+"your questions promptly. We optimized the support process to get the "
+"required details from your current setup to solve your issues faster. "
+"Dedicated to your Care."
+msgstr ""
+"אפשר את צ'אט התמיכה כדי להפיק את המרב מהשירות שלנו ולקבל תשובות לשאלותיך "
+"באופן מיידי. ביצענו אופטימיזציה של תהליך התמיכה כדי לקבל את הפרטים הנדרשים "
+"מההגדרה הנוכחית שלך כדי לפתור את הבעיות שלך מהר יותר. מוקדש לטיפול שלך."
+
+#: admin/settings/general.class.php:902, views/wizard/step-support.php:26
+msgid "Enable support chat"
+msgstr "אפשר צ'אט תמיכה"
+
+#: admin/settings/integrations.class.php:59
+msgid "Integrations"
+msgstr "אינטגרציות"
+
+#: admin/settings/integrations.class.php:60
+msgid "Wishlist Integrations with 3rd party plugins and themes"
+msgstr "שילובי משאלות עם תוספים וערכות נושא של צד שלישי"
+
+#: admin/settings/integrations.class.php:97
+msgid "Available Integrations"
+msgstr "אינטגרציות זמינות"
+
+#: admin/settings/integrations.class.php:100
+msgid ""
+"You can disable built-in integrations with 3rd party plugins and themes."
+msgstr "אתה יכול להשבית אינטגרציות מובנות עם תוספים וערכות נושא של צד שלישי."
+
+#: admin/settings/settings.class.php:56
+msgid "Export/Import Settings"
+msgstr "הגדרות ייצוא/ייבוא"
+
+#: admin/settings/settings.class.php:57
+msgid "Export/Import Plugin Settings"
+msgstr "ייצוא/ייבוא הגדרות תוסף"
+
+#: admin/settings/style.class.php:56
+msgid "Style Options"
+msgstr "אפשרויות סגנון"
+
+#: admin/settings/style.class.php:57
+msgid "Wishlist Style Options"
+msgstr "אפשרויות סגנון ברשימת משאלות"
+
+#: admin/settings/style.class.php:71
+msgid "Use Default Font"
+msgstr "השתמש בגופן ברירת המחדל"
+
+#: admin/settings/style.class.php:88
+msgid "text"
+msgstr "טֶקסט"
+
+#: admin/settings/style.class.php:95
+msgid "Title Color"
+msgstr "צבע כותרת"
+
+#: admin/settings/style.class.php:101
+msgid "Title Font Size"
+msgstr "גודל גופן כותרת"
+
+#: admin/settings/style.class.php:107, admin/settings/style.class.php:483, 
+#: admin/settings/style.class.php:582
+msgid "Content Text Color"
+msgstr "צבע טקסט תוכן"
+
+#: admin/settings/style.class.php:113, admin/settings/style.class.php:149, 
+#: admin/settings/style.class.php:187, admin/settings/style.class.php:244, 
+#: admin/settings/style.class.php:313, admin/settings/style.class.php:369, 
+#: admin/settings/style.class.php:419
+msgid "Font"
+msgstr "גוֹפָן"
+
+#: admin/settings/style.class.php:120
+msgid "Product Title link"
+msgstr "קישור לכותרת המוצר"
+
+#: admin/settings/style.class.php:127
+msgid "Color"
+msgstr "צֶבַע"
+
+#: admin/settings/style.class.php:133
+msgid "Hover Color"
+msgstr "צבע רחף"
+
+#: admin/settings/style.class.php:139
+msgid "Underline"
+msgstr "לָשִׂים דָגֵשׁ"
+
+#: admin/settings/style.class.php:141
+msgid "Yes"
+msgstr "כן"
+
+#: admin/settings/style.class.php:142
+msgid "No"
+msgstr "לא"
+
+#: admin/settings/style.class.php:156
+msgid "fields"
+msgstr "שדות"
+
+#: admin/settings/style.class.php:163, admin/settings/style.class.php:207, 
+#: admin/settings/style.class.php:276, admin/settings/style.class.php:345, 
+#: admin/settings/style.class.php:395, admin/settings/style.class.php:445, 
+#: admin/settings/style.class.php:540, admin/settings/style.class.php:576
+msgid "Background Color"
+msgstr "צבע רקע"
+
+#: admin/settings/style.class.php:169, admin/settings/style.class.php:451
+msgid "Border Color"
+msgstr "צבע גבול"
+
+#: admin/settings/style.class.php:175, admin/settings/style.class.php:264, 
+#: admin/settings/style.class.php:333, admin/settings/style.class.php:383, 
+#: admin/settings/style.class.php:433
+msgid "Border Radius"
+msgstr "רדיוס הגבול"
+
+#: admin/settings/style.class.php:181, admin/settings/style.class.php:231, 
+#: admin/settings/style.class.php:300, admin/settings/style.class.php:357, 
+#: admin/settings/style.class.php:407
+msgid "Text Color"
+msgstr "צבע טקסט"
+
+#: admin/settings/style.class.php:195
+msgid "Select Font Size"
+msgstr "בחר גודל גופן"
+
+#: admin/settings/style.class.php:200
+msgid "\"Add to Wishlist\" product page button"
+msgstr "כפתור דף המוצר \"הוסף לרשימת המשאלות\"."
+
+#: admin/settings/style.class.php:213, admin/settings/style.class.php:282, 
+#: admin/settings/style.class.php:351, admin/settings/style.class.php:401, 
+#: admin/settings/style.class.php:546
+msgid "Background Hover Color"
+msgstr "צבע ריחוף ברקע"
+
+#: admin/settings/style.class.php:219, admin/settings/style.class.php:288
+msgid "Button Text Color"
+msgstr "צבע טקסט לחצן"
+
+#: admin/settings/style.class.php:225, admin/settings/style.class.php:294
+msgid "Button Text Hover Color"
+msgstr "צבע ריחוף של טקסט לחצן"
+
+#: admin/settings/style.class.php:237, admin/settings/style.class.php:306, 
+#: admin/settings/style.class.php:363, admin/settings/style.class.php:413
+msgid "Text Hover Color"
+msgstr "צבע ריחוף של טקסט"
+
+#: admin/settings/style.class.php:252, admin/settings/style.class.php:321, 
+#: admin/settings/style.class.php:377, admin/settings/style.class.php:427
+msgid "Font Size"
+msgstr "גודל גופן"
+
+#: admin/settings/style.class.php:258, admin/settings/style.class.php:327, 
+#: admin/settings/style.class.php:564
+msgid "Icon Size"
+msgstr "גודל סמל"
+
+#: admin/settings/style.class.php:269
+msgid "\"Add to Wishlist\" product listing button"
+msgstr "כפתור \"הוסף לרשימת משאלות\" מוצר"
+
+#: admin/settings/style.class.php:338
+msgid "\"Apply Action\" button "
+msgstr "כפתור \"החל פעולה\"."
+
+#: admin/settings/style.class.php:388
+msgid "add to cart button"
+msgstr "כפתור הוסף לעגלה"
+
+#: admin/settings/style.class.php:438
+msgid "table"
+msgstr "שולחן"
+
+#: admin/settings/style.class.php:457
+msgid "Table Head Background Color"
+msgstr "צבע רקע ראש שולחן"
+
+#: admin/settings/style.class.php:463
+msgid "Table Head Text Color"
+msgstr "צבע טקסט ראש שולחן"
+
+#: admin/settings/style.class.php:469
+msgid "Table Head Font"
+msgstr "גופן ראש שולחן"
+
+#: admin/settings/style.class.php:477
+msgid "Table Head Font Size"
+msgstr "גודל גופן ראש שולחן"
+
+#: admin/settings/style.class.php:489, admin/settings/style.class.php:588
+msgid "Content Text Font"
+msgstr "גופן טקסט תוכן"
+
+#: admin/settings/style.class.php:497, admin/settings/style.class.php:596
+msgid "Content Text Font Size"
+msgstr "גודל גופן טקסט תוכן"
+
+#: admin/settings/style.class.php:503
+msgid "Price Color"
+msgstr "צבע מחיר"
+
+#: admin/settings/style.class.php:509
+msgid "Price Font"
+msgstr "פונט מחיר"
+
+#: admin/settings/style.class.php:517
+msgid "Price Font Size"
+msgstr "מחיר גודל גופן"
+
+#: admin/settings/style.class.php:523
+msgid "Special Price Color"
+msgstr "צבע מחיר מיוחד"
+
+#: admin/settings/style.class.php:529
+msgid "Special Price Background Color"
+msgstr "מחיר מיוחד צבע רקע"
+
+#: admin/settings/style.class.php:533
+msgid "Share buttons"
+msgstr "כפתורי שיתוף"
+
+#: admin/settings/style.class.php:552
+msgid "Icon Color"
+msgstr "צבע סמל"
+
+#: admin/settings/style.class.php:558
+msgid "Icon Hover Color"
+msgstr "סמל רחף צבע"
+
+#: admin/settings/style.class.php:569
+msgid "popups"
+msgstr "חלונות קופצים"
+
+#: admin/settings/style.class.php:602
+msgid "Normal Buttons Background Color"
+msgstr "כפתורים רגילים צבע רקע"
+
+#: admin/settings/style.class.php:608
+msgid "Normal Buttons Background Hover Color"
+msgstr "רקע לחצנים רגילים צבע ריחוף"
+
+#: admin/settings/style.class.php:614
+msgid "Normal Buttons Text Color"
+msgstr "כפתורים רגילים צבע טקסט"
+
+#: admin/settings/style.class.php:620
+msgid "Normal Buttons Text Hover Color"
+msgstr "לחצנים רגילים צבע ריחוף של טקסט"
+
+#: admin/settings/upgrade.class.php:56, admin/tinvwl.class.php:317, 
+#: views/wizard/finish.php:33
+msgid "Upgrade to Premium"
+msgstr "שדרג לפרימיום"
+
+#: admin/settings/upgrade.class.php:57
+msgid "Premium Features"
+msgstr "תכונות פרימיום"
+
+#: admin/tinvwl.class.php:102
+msgid ""
+"<strong>Welcome to WooCommerce Wishlist Plugin</strong> – You‘re almost "
+"ready to start :)"
+msgstr ""
+"<strong>ברוכים הבאים לפלאגין המשאלות של WooCommerce</strong> - אתה כמעט מוכן "
+"להתחיל :)"
+
+#: admin/tinvwl.class.php:104, admin/tinvwl.class.php:124
+msgid "Run the Setup Wizard"
+msgstr "הפעל את אשף ההתקנה"
+
+#: admin/tinvwl.class.php:106
+msgid "Skip Setup"
+msgstr "דלג על הגדרות"
+
+#: admin/tinvwl.class.php:114, includes/notice.helper.php:115
+msgid "Dismiss"
+msgstr "לשחרר"
+
+#: admin/tinvwl.class.php:115
+msgid "WooCommerce Wishlist Plugin is misconfigured!"
+msgstr "תוסף המשאלות של WooCommerce מוגדר בצורה שגויה!"
+
+#: admin/tinvwl.class.php:116
+msgid ""
+"Since the Setup Wizard was skipped, the Wishlist may function improperly."
+msgstr "מכיוון שדילג על אשף ההתקנה, יתכן שרשימת המשאלות תפעל בצורה לא תקינה."
+
+#: admin/tinvwl.class.php:117
+msgid ""
+"Create a New Page or open to edit a page where the Wishlist should be "
+"displayed."
+msgstr "צור דף חדש או פתח כדי לערוך דף שבו יש להציג את רשימת המשאלות."
+
+#: admin/tinvwl.class.php:118
+msgid "Add <code>[ti_wishlistsview]</code> shortcode into a page content."
+msgstr "הוסף קוד קצר <code>[ti_wishlistsview]</code> לתוכן הדף."
+
+#: admin/tinvwl.class.php:119
+msgid ""
+"In a plugin General Settings section apply this page as a \"Wishlist\" page."
+msgstr "בחלק של הגדרות כלליות של תוסף החל דף זה כדף \"רשימת משאלות\"."
+
+#: admin/tinvwl.class.php:121
+msgid "Please apply the Wishlist page"
+msgstr "נא להחיל את דף המשאלות"
+
+#: admin/tinvwl.class.php:122
+msgid " or "
+msgstr "אוֹ"
+
+#: admin/tinvwl.class.php:143
+msgid ""
+"The Support Chat is disabled by default for the plugin setting pages. Enable "
+"it to get the most from our service!"
+msgstr ""
+"צ'אט התמיכה מושבת כברירת מחדל עבור דפי הגדרות הפלאגין. אפשר לה להפיק את המרב "
+"מהשירות שלנו!"
+
+#: admin/tinvwl.class.php:145
+msgid "Enable Support Chat"
+msgstr "אפשר צ'אט תמיכה"
+
+#: admin/tinvwl.class.php:158, admin/tinvwl.class.php:158
+msgid "TI Wishlist"
+msgstr "TI wishlist"
+
+#: admin/tinvwl.class.php:239
+msgid "Are you sure you want to reset the settings?"
+msgstr "האם אתה בטוח שברצונך לאפס את ההגדרות?"
+
+#: admin/tinvwl.class.php:356
+msgid ""
+"<code>%1$s</code> version <strong style=\"color:red\">%2$s</strong> is out "
+"of date. The core version is <strong style=\"color:red\">%3$s</strong>"
+msgstr ""
+"גרסת <code>%1$s</code> <strong style=\"color:red\">%2$s</strong> אינה "
+"מעודכנת. גרסת הליבה היא <strong style=\"color:red\">%3$s</strong>"
+
+#: admin/tinvwl.class.php:382
+msgid ""
+"<strong>Your theme (%1$s) contains outdated copies of some WooCommerce "
+"Wishlist Plugin template files.</strong><br> These files may need updating "
+"to ensure they are compatible with the current version of WooCommerce "
+"Wishlist Plugin.<br> You can see which files are affected from the <a "
+"href=\"%2$s\">system status page</a>.<br> If in doubt, check with the author "
+"of the theme."
+msgstr ""
+"<strong>ערכת הנושא שלך (%1$s) מכילה עותקים מיושנים של כמה קובצי תבנית של "
+"תוסף WooCommerce wishes.</strong><br> ייתכן שיהיה צורך לעדכן קבצים אלה כדי "
+"להבטיח שהם תואמים לגרסה הנוכחית של WooCommerce wish Plugin.<br > אתה יכול "
+"לראות אילו קבצים מושפעים מ<a href=\"%2$s\">דף מצב המערכת</a>.<br> אם יש לך "
+"ספק, בדוק עם מחבר הנושא."
+
+#: includes/api/frontend.class.php:57
+msgid "Limit result set to specific ids."
+msgstr "הגבל את קבוצת התוצאות למזהים ספציפיים."
+
+#: includes/api/frontend.class.php:67
+msgid "Return wishlist products counter."
+msgstr "דלפק רשימת משאלות להחזרת מוצרים."
+
+#: includes/api/wishlist.class.php:111, includes/api/wishlist.class.php:182, 
+#: includes/api/wishlist.class.php:233, includes/api/wishlist.class.php:286
+msgid "Invalid wishlist share key."
+msgstr "מפתח שיתוף רשימת משאלות לא חוקי."
+
+#: includes/api/wishlist.class.php:140
+msgid "WordPress user does not exists."
+msgstr "משתמש וורדפרס לא קיים."
+
+#: includes/api/wishlist.class.php:148
+msgid "No wishlists found for this user."
+msgstr "לא נמצאו רשימות משאלות עבור משתמש זה."
+
+#: includes/api/wishlist.class.php:206, includes/api/wishlist.class.php:203
+msgid "Update wishlist data failed."
+msgstr "עדכון נתוני רשימת המשאלות נכשל."
+
+#: includes/api/wishlist.class.php:290, includes/api/wishlist.class.php:313
+msgid "Add product to wishlist failed."
+msgstr "הוספת המוצר לרשימת המשאלות נכשלה."
+
+#: includes/api/wishlist.class.php:346, includes/api/wishlist.class.php:359
+msgid "Product not found."
+msgstr "מוצר לא נמצא."
+
+#: includes/api/wishlist.class.php:350
+msgid "Remove product from wishlist failed."
+msgstr "הסרת המוצר מרשימת המשאלות נכשלה."
+
+#: includes/api/wishlist.class.php:362
+msgid "Product removed from a wishlist."
+msgstr "המוצר הוסר מרשימת המשאלות."
+
+#: includes/api/yoasti18n/i18n-module.php:204
+msgid ""
+"You're using WordPress in a language we don't support yet. We'd love for "
+"%2$s to be translated in that language too, but unfortunately, it isn't "
+"right now. You can change that! Register at %4$s to help translate it!"
+msgstr ""
+"אתה משתמש בוורדפרס בשפה שאנחנו עדיין לא תומכים בה. נשמח ש-%2$s יתורגמו גם "
+"בשפה הזו, אבל למרבה הצער, זה לא נכון עכשיו. אתה יכול לשנות את זה! הירשם ב-"
+"%4$s כדי לעזור לתרגם אותו!"
+
+#: includes/api/yoasti18n/i18n-module.php:202
+msgid ""
+"You're using WordPress in <strong>%1$s</strong>. While %2$s has been "
+"translated to %1$s for <strong>%3$d%%</strong>, it's not been shipped with "
+"the plugin yet.<br> You can help! Register at %4$s to help complete the "
+"translation to %1$s!"
+msgstr ""
+"אתה משתמש בוורדפרס ב-<strong>%1$s</strong>. בעוד ש-%2$s תורגם ל-%1$s עבור "
+"<strong>%3$d%%</strong>, הוא עדיין לא נשלח עם הפלאגין.<br> אתה יכול לעזור! "
+"הירשם ב-%4$s כדי לעזור להשלים את התרגום ל-%1$s!"
+
+#: includes/api/yoasti18n/i18n-module.php:200
+msgid ""
+"As you can see, there is a translation of this plugin in %1$s. This "
+"translation is currently %3$d%% complete. We need your help to make it "
+"complete and to fix any errors. Please register at %4$s to help complete the "
+"translation to %1$s!"
+msgstr ""
+"כפי שאתה יכול לראות, יש תרגום של התוסף הזה ב-%1$s. תרגום זה הושלם כעת %3$d%%."
+" אנו זקוקים לעזרתך כדי להשלים אותו ולתקן שגיאות. אנא הירשם ב-%4$s כדי לעזור "
+"להשלים את התרגום ל-%1$s!"
+
+#: includes/api/yoasti18n/i18n-module.php:234
+msgid "Translation of %s"
+msgstr "תרגום של %s"
+
+#: includes/api/yoasti18n/i18n-module.php:236
+msgid "Register now &raquo;"
+msgstr "הירשם עכשיו &raquo;"
+
+#: includes/export.class.php:158, includes/export.class.php:249
+msgid "There was an error importing your settings, please try again."
+msgstr "אירעה שגיאה בייבוא ההגדרות שלך, אנא נסה שוב."
+
+#: includes/export.class.php:264
+msgid ""
+"Please upload the TI WooCommerce Wishlist setting file or copy the content."
+msgstr "אנא העלה את קובץ ההגדרות של TI WooCommerce משאלות או העתק את התוכן."
+
+#: includes/export.class.php:277
+msgid "The settings json is not valid."
+msgstr "ההגדרות json לא חוקיות."
+
+#: includes/export.class.php:227
+msgid "The file you are uploading is too big."
+msgstr "הקובץ שאתה מעלה גדול מדי."
+
+#: includes/export.class.php:237
+msgid "There was an error uploading the file."
+msgstr "אירעה שגיאה בהעלאת הקובץ."
+
+#: includes/export.class.php:191
+msgid "The settings file is empty."
+msgstr "קובץ ההגדרות ריק."
+
+#: includes/export.class.php:204
+msgid "The settings file is not valid."
+msgstr "קובץ ההגדרות אינו חוקי."
+
+#: includes/export.class.php:303
+msgid "There was an error exporting your settings, please try again."
+msgstr "אירעה שגיאה בייצוא ההגדרות שלך, אנא נסה שוב."
+
+#: includes/form.helper.php:527
+msgid "Preview"
+msgstr "תצוגה מקדימה"
+
+#: includes/pluginextend.helper.php:537, includes/pluginextend.helper.php:606
+msgid "%2$s %3$s is required for %1$s. Deactivating %1$s."
+msgstr "%2$s נדרש %3$s עבור %1$s. מבטל את ההפעלה של %1$s."
+
+#: includes/pluginextend.helper.php:546
+msgid "%1$s is confilcted with %2$s %3$s. Deactivating %1$s."
+msgstr "%1$s מורכב עם %2$s %3$s. מבטל את ההפעלה של %1$s."
+
+#: includes/pluginextend.helper.php:555, includes/pluginextend.helper.php:624
+msgid "%2$s %3$s is required. Please update it before activating this plugin."
+msgstr "נדרש %2$s %3$s. אנא עדכן אותו לפני הפעלת הפלאגין הזה."
+
+#: includes/pluginextend.helper.php:560, includes/pluginextend.helper.php:629
+msgid ""
+"%2$s %3$s is required. Please downgrade it before activating this plugin."
+msgstr "נדרש %2$s %3$s. אנא שדרג אותו לפני הפעלת הפלאגין הזה."
+
+#: includes/pluginextend.helper.php:564, includes/pluginextend.helper.php:633
+msgid ""
+"%2$s %3$s is required. Please activate it before activating this plugin."
+msgstr "נדרש %2$s %3$s. אנא הפעל אותו לפני הפעלת הפלאגין הזה."
+
+#: includes/pluginextend.helper.php:568, includes/pluginextend.helper.php:637
+msgid ""
+"%1$s is conflicted with %2$s %3$s. Please disable it before activating this "
+"plugin."
+msgstr "%1$s מתנגש עם %2$s %3$s. אנא השבת אותו לפני הפעלת הפלאגין הזה."
+
+#: includes/pluginextend.helper.php:572, includes/pluginextend.helper.php:641
+msgid ""
+"%1$s %3$s is required. Please activate it before activating this plugin."
+msgstr "נדרש %1$s %3$s. אנא הפעל אותו לפני הפעלת הפלאגין הזה."
+
+#: includes/pluginextend.helper.php:615
+msgid "%1$s is conflicted with %2$s %3$s. Deactivating %1$s."
+msgstr "%1$s מתנגש עם %2$s %3$s. מבטל את ההפעלה של %1$s."
+
+#: includes/tinvwl.class.php:176
+msgid "Settings"
+msgstr "הגדרות"
+
+#: includes/tinvwl.class.php:177
+msgid "Premium Version"
+msgstr "גרסת פרימיום"
+
+#: includes/tinvwl.class.php:178
+msgid "Live Demo"
+msgstr "דמו ישיר"
+
+#: includes/view.helper.php:183
+msgid "Attention!"
+msgstr "תשומת הלב!"
+
+#: includes/view.helper.php:199
+msgid "Errors(%s)"
+msgstr "שגיאות (%s)"
+
+#: includes/view.helper.php:215
+msgid "Useful Tip"
+msgstr "טיפ שימושי"
+
+#: includes/view.helper.php:356
+msgid "read documentation"
+msgstr "לקרוא תיעוד"
+
+#: includes/wizard.class.php:290
+msgid "Introduction"
+msgstr "מבוא"
+
+#: includes/wizard.class.php:308, views/wizard/step-page.php:16
+msgid "Page Setup"
+msgstr "הגדרות עמוד"
+
+#: includes/wizard.class.php:317, includes/wizard.class.php:349, 
+#: integrations/theme-flatsome.php:124, integrations/theme-flatsome.php:167, 
+#: integrations/theme-flatsome.php:245, integrations/theme-flatsome.php:284, 
+#: public/tinvwl.class.php:669, views/header.php:25
+msgid "Wishlist"
+msgstr "רשימת משאלות"
+
+#: includes/wizard.class.php:321
+msgid "Create Automatically"
+msgstr "צור באופן אוטומטי"
+
+#: includes/wizard.class.php:322
+msgid "Create new Page"
+msgstr "צור דף חדש"
+
+#: includes/wizard.class.php:428
+msgid "Button"
+msgstr "לַחְצָן"
+
+#: includes/wizard.class.php:475
+msgid "Processing"
+msgstr "מעבד"
+
+#: includes/wizard.class.php:486
+msgid "Automatically"
+msgstr "באופן אוטומטי"
+
+#: includes/wizard.class.php:487
+msgid "Manual"
+msgstr "מדריך ל"
+
+#: includes/wizard.class.php:513, views/wizard/step-social.php:18
+msgid "Share"
+msgstr "לַחֲלוֹק"
+
+#: includes/wizard.class.php:560, views/wizard/step-support.php:18
+msgid "Support"
+msgstr "תמיכה"
+
+#: includes/wizard.class.php:592
+msgid "Ready!"
+msgstr "מוּכָן!"
+
+#: integrations/automatewoo/trigger-wishlist-item-added-to-cart.php:13
+msgid "Customer Added Product From Wishlist To Cart (TI WooCommerce Wishlist)"
+msgstr "הלקוח הוסיף מוצר מרשימת משאלות לעגלה (רשימת משאלות של TI WooCommerce)"
+
+#: integrations/automatewoo/trigger-wishlist-item-added-to-cart.php:14, 
+#: integrations/automatewoo/trigger-wishlist-item-added.php:14, 
+#: integrations/automatewoo/trigger-wishlist-item-purchased.php:14, 
+#: integrations/automatewoo/trigger-wishlist-item-removed.php:14, 
+#: integrations/automatewoo/trigger-wishlist-reminder.php:23
+msgid "Wishlists"
+msgstr "רשימת משאלות"
+
+#: integrations/automatewoo/trigger-wishlist-item-added.php:13
+msgid "Customer Added Product To Wishlist (TI WooCommerce Wishlist)"
+msgstr "הלקוח הוסיף מוצר לרשימת משאלות (TI WooCommerce רשימת משאלות)"
+
+#: integrations/automatewoo/trigger-wishlist-item-purchased.php:13
+msgid "Product Purchased From Wishlist (TI WooCommerce Wishlist)"
+msgstr "מוצר שנרכש מתוך רשימת משאלות (TI WooCommerce wishlist)"
+
+#: integrations/automatewoo/trigger-wishlist-item-removed.php:13
+msgid "Customer Removed Product From Wishlist (TI WooCommerce Wishlist)"
+msgstr "הלקוח הוסר מוצר מרשימת המשאלות (רשימת משאלות של TI WooCommerce)"
+
+#: integrations/automatewoo/trigger-wishlist-reminder.php:22
+msgid "Wishlist Reminder (TI WooCommerce Wishlist)"
+msgstr "תזכורת לרשימת משאלות (רשימת משאלות של TI WooCommerce)"
+
+#: integrations/automatewoo/trigger-wishlist-reminder.php:24
+msgid ""
+"Setting the 'Reminder Interval' field to 30 means this trigger will fire "
+"every 30 days for any users that have items in their wishlist. This trigger "
+"is checked daily. Please note this doesn't work for guests because their "
+"wishlist data only exists in their session data."
+msgstr ""
+"הגדרת השדה 'מרווח תזכורות' ל-30 פירושה שהטריגר הזה יופעל כל 30 יום עבור כל "
+"המשתמשים שיש להם פריטים ברשימת המשאלות שלהם. טריגר זה נבדק מדי יום. שימו לב "
+"שזה לא עובד עבור אורחים כי נתוני רשימת המשאלות שלהם קיימים רק בנתוני הפגישה "
+"שלהם."
+
+#: integrations/automatewoo/trigger-wishlist-reminder.php:36
+msgid "Reminder interval (days)"
+msgstr "מרווח תזכורות (ימים)"
+
+#: integrations/automatewoo/trigger-wishlist-reminder.php:37
+msgid "E.g. Reminder any customers with items in a Wishlist every 30 days."
+msgstr "לְמָשָׁל. תזכורת לכל לקוחות עם פריטים ברשימת משאלות כל 30 יום."
+
+#: integrations/automatewoo/trigger-wishlist-reminder.php:42
+msgid "Once per customer"
+msgstr "פעם אחת לכל לקוח"
+
+#: integrations/automatewoo/trigger-wishlist-reminder.php:43
+msgid ""
+"If checked the trigger will fire only once for each customer for each "
+"wishlist they create. Most customers only use the one wishlist so use with "
+"caution. Setting a high Reminder interval may be a better plan."
+msgstr ""
+"אם מסומן, הטריגר יופעל פעם אחת בלבד עבור כל לקוח עבור כל רשימת משאלות שהוא "
+"יוצר. רוב הלקוחות משתמשים רק ברשימת המשאלות האחת אז השתמש בזהירות. הגדרת "
+"מרווח תזכורות גבוה עשויה להיות תוכנית טובה יותר."
+
+#: integrations/gift-cards-for-woocommerce.php:119
+msgid "Note"
+msgstr "פתק"
+
+#: integrations/gift-cards-for-woocommerce.php:122
+msgid "To"
+msgstr "ל"
+
+#: integrations/gift-cards-for-woocommerce.php:125
+msgid "To Email"
+msgstr "למייל"
+
+#: integrations/gift-cards-for-woocommerce.php:128
+msgid "Address"
+msgstr "כתובת"
+
+#: integrations/gift-cards-for-woocommerce.php:131
+msgid "Reload existing Gift Card"
+msgstr "טען מחדש את כרטיס המתנה הקיים"
+
+#: integrations/mycred.php:55
+msgid "WooCommerce Wishlist"
+msgstr "WooCommerce משאלות"
+
+#: integrations/mycred.php:56
+msgid ""
+"Awards %_plural% for users adding products to their wishlist and purchased "
+"products from their wishlist."
+msgstr ""
+"פרסים %_plural% עבור משתמשים שמוסיפים מוצרים לרשימת המשאלות שלהם ורכשו "
+"מוצרים מרשימת המשאלות שלהם."
+
+#: integrations/mycred.php:209
+msgid "Adding Product to Wishlist"
+msgstr "הוספת מוצר לרשימת משאלות"
+
+#: integrations/mycred.php:214, integrations/mycred.php:259
+msgid "Points"
+msgstr "נקודות"
+
+#: integrations/mycred.php:227, integrations/mycred.php:272
+msgid "Limit"
+msgstr "לְהַגבִּיל"
+
+#: integrations/mycred.php:240, integrations/mycred.php:285
+msgid "Log Template"
+msgstr "תבנית יומן"
+
+#: integrations/mycred.php:244, integrations/mycred.php:289
+msgid "required"
+msgstr "נדרש"
+
+#: integrations/mycred.php:254
+msgid "Purchasing Product from Wishlist"
+msgstr "רכישת מוצר ממשאלות"
+
+#: integrations/mycred.php:342
+msgid "Purchased From Wishlist"
+msgstr "נרכש מתוך רשימת משאלות"
+
+#: integrations/mycred.php:343
+msgid "Added To Wishlist"
+msgstr "נוסף לרשימת המשאלות"
+
+#: integrations/product-extras-for-woocommerce.php:129
+msgid "Flat rate cost"
+msgstr "עלות תעריף אחיד"
+
+#: integrations/theme-flatsome.php:175
+msgid "Wishlist Icon"
+msgstr "אייקון ברשימת המשאלות"
+
+#: integrations/theme-flatsome.php:194
+msgid "Wishlist Icon Style"
+msgstr "סגנון אייקון ברשימת משאלות"
+
+#: integrations/theme-flatsome.php:211
+msgid "Show Wishlist Title"
+msgstr "הצג את כותרת המשאלות"
+
+#: integrations/theme-flatsome.php:222
+msgid "Custom Title"
+msgstr "כותרת מותאמת אישית"
+
+#: integrations/woo-product-bundle.php:113, 
+#: integrations/woocommerce-composite-products.php:142, 
+#: integrations/woocommerce-mix-and-match-products.php:112, 
+#: integrations/woocommerce-product-bundles.php:134, 
+#: integrations/yith-woocommerce-product-bundles.php:165, 
+#: templates/ti-wishlist-user.php:145, templates/ti-wishlist.php:153
+msgid "In stock"
+msgstr "במלאי"
+
+#: integrations/woocommerce-rental-and-booking.php:57
+msgid "Rental Product"
+msgstr "מוצר להשכרה"
+
+#: integrations/woocommerce-rental-and-booking.php:114
+msgid "Quote Request"
+msgstr "בקשה לציטוט"
+
+#: integrations/woocommerce-rental-and-booking.php:130, 
+#: integrations/woocommerce-rental-and-booking.php:146
+msgid " Cost"
+msgstr "עֲלוּת"
+
+#: integrations/woocommerce-rental-and-booking.php:154
+msgid "Location Cost"
+msgstr "עלות מיקום"
+
+#: integrations/woocommerce-rental-and-booking.php:166, 
+#: integrations/woocommerce-rental-and-booking.php:182, 
+#: integrations/woocommerce-rental-and-booking.php:198
+msgid "One Time"
+msgstr "פעם אחת"
+
+#: integrations/woocommerce-rental-and-booking.php:164, 
+#: integrations/woocommerce-rental-and-booking.php:180, 
+#: integrations/woocommerce-rental-and-booking.php:196
+msgid "Per Day"
+msgstr "ליום"
+
+#: integrations/woocommerce-rental-and-booking.php:230, 
+#: integrations/woocommerce-rental-and-booking.php:244
+msgid "at"
+msgstr "בְּ-"
+
+#: integrations/woocommerce-rental-and-booking.php:263
+msgid "Total Hours"
+msgstr "סה\"כ שעות"
+
+#: integrations/woocommerce-rental-and-booking.php:257
+msgid "Total Days"
+msgstr "סך הימים"
+
+#: integrations/woocommerce-rental-and-booking.php:271
+msgid "Due Payment"
+msgstr "תשלום מועד"
+
+#: integrations/wp-grid-builder.php:100
+msgid "Wishlist Button"
+msgstr "לחצן משאלות"
+
+#: integrations/yith-woocommerce-product-add-ons.php:72
+msgid "Base price"
+msgstr "מחיר בסיסי"
+
+#: integrations/yith-woocommerce-product-bundles.php:100
+msgid "Out of stock"
+msgstr "אזל במלאי"
+
+#: public/addtowishlist.class.php:190
+msgid "Please, login to add products to Wishlist"
+msgstr "Please, login to add products to Wishlist"
+
+#: public/addtowishlist.class.php:192
+msgid "Login"
+msgstr "התחברות"
+
+#: public/addtowishlist.class.php:211
+msgid "Something went wrong"
+msgstr "משהו השתבש"
+
+#: public/tinvwl.class.php:522
+msgid "Create New"
+msgstr "צור חדש"
+
+#: public/tinvwl.class.php:526
+msgid ""
+"Please select some product options before adding this product to your "
+"wishlist."
+msgstr "אנא בחר כמה אפשרויות מוצר לפני הוספת מוצר זה לרשימת המשאלות שלך."
+
+#: public/tinvwl.class.php:527
+msgid "No items or actions are selected."
+msgstr "לא נבחרו פריטים או פעולות."
+
+#: public/tinvwl.class.php:528
+msgid "Copied!"
+msgstr "מוּעֲתָק!"
+
+#: public/widget/wishlistcounter.class.php:24
+msgid "Displays the number of products in the wishlist on your site."
+msgstr "מציג את מספר המוצרים ברשימת המשאלות באתר שלך."
+
+#: public/widget/wishlistcounter.class.php:26
+msgid "TI Wishlist Products Counter"
+msgstr "דלפק מוצרי משאלות TI"
+
+#: public/widget/wishlistcounter.class.php:31
+msgid "Show counter icon"
+msgstr "הצג סמל מונה"
+
+#: public/widget/wishlistcounter.class.php:36
+msgid "Show counter text"
+msgstr "הצג טקסט נגדי"
+
+#: public/widget/wishlistcounter.class.php:41
+msgid "Counter Text"
+msgstr "טקסט נגדי"
+
+#: public/wishlist/buttons.class.php:63
+msgid "Apply %s"
+msgstr "החל %s"
+
+#: public/wishlist/buttons.class.php:63
+msgid "Action"
+msgstr "פעולה"
+
+#: public/wishlist/buttons.class.php:331, public/wishlist/buttons.class.php:465
+msgctxt "Item name in quotes"
+msgid "&ldquo;%s&rdquo;"
+msgstr ""
+
+#: public/wishlist/buttons.class.php:334, public/wishlist/buttons.class.php:468
+msgid ""
+"Product %s could not be added to cart because some requirements are not met."
+msgid_plural ""
+"Products: %s could not be added to cart because some requirements are not "
+"met."
+msgstr[0] ""
+"לא ניתן היה להוסיף את המוצר %s לעגלה מכיוון שחלק מהדרישות לא מתקיימות."
+msgstr[1] ""
+"מוצרים: לא ניתן להוסיף את %s לעגלת הקניות מכיוון שחלק מהדרישות לא מתקיימות."
+
+#: public/wishlist/buttons.class.php:363
+msgid "Actions"
+msgstr "פעולות"
+
+#: public/wishlist/buttons.class.php:372, templates/ti-wishlist.php:95
+msgid "Remove"
+msgstr "לְהַסִיר"
+
+#: public/wishlist/buttons.class.php:523, public/wishlist/view.class.php:518
+msgid "&ldquo;%s&rdquo;"
+msgstr ""
+
+#: public/wishlist/buttons.class.php:539
+msgid "%s has been successfully removed from wishlist."
+msgid_plural "%s have been successfully removed from wishlist."
+msgstr[0] "%s הוסר בהצלחה מרשימת המשאלות."
+msgstr[1] "%s הוסרו בהצלחה מרשימת המשאלות."
+
+#: public/wishlist/social.class.php:100
+msgid "Facebook"
+msgstr ""
+
+#: public/wishlist/social.class.php:121
+msgid "Twitter"
+msgstr ""
+
+#: public/wishlist/social.class.php:142
+msgid "Pinterest"
+msgstr ""
+
+#: public/wishlist/social.class.php:164
+msgid "Email"
+msgstr "אימייל"
+
+#: public/wishlist/social.class.php:185
+msgid "Clipboard"
+msgstr "לוח כתיבה"
+
+#: public/wishlist/social.class.php:200
+msgid "WhatsApp"
+msgstr "וואטסאפ"
+
+#: public/wishlist/view.class.php:455
+msgid "%1$s by %2$s"
+msgstr "%1$s על %2$s"
+
+#: public/wishlist/view.class.php:533
+msgid "%s has not been removed from wishlist."
+msgstr "%s לא הוסר מרשימת המשאלות."
+
+#: public/wishlist/view.class.php:531
+msgid "%s has been removed from wishlist."
+msgstr "%s הוסר מרשימת המשאלות."
+
+#: public/wishlist/view.class.php:680
+msgid "Return to Wishlist"
+msgstr "חזור לרשימת משאלות"
+
+#: public/wishlist/view.class.php:804
+msgid "Previous Page"
+msgstr "עמוד קודם"
+
+#: public/wishlist/view.class.php:834
+msgid "Next Page"
+msgstr "עמוד הבא"
+
+#: templates/ti-addedtowishlist-dialogbox.php:36
+msgid "Close"
+msgstr "סגור"
+
+#: templates/ti-wishlist-empty.php:25
+msgid "Wishlist is currently empty."
+msgstr "רשימת המשאלות ריקה כרגע."
+
+#: templates/ti-wishlist-empty.php:23
+msgid "Your Wishlist is currently empty."
+msgstr "רשימת המשאלות שלך ריקה כרגע."
+
+#: templates/ti-wishlist-empty.php:33, templates/ti-wishlist-null.php:24
+msgid "Return To Shop"
+msgstr "חזרה לחנות"
+
+#: templates/ti-wishlist-null.php:17
+msgid "Wishlist is not found!"
+msgstr "רשימת משאלות לא נמצאה!"
+
+#: templates/ti-wishlist-user.php:32, templates/ti-wishlist.php:32
+msgid "Select all for bulk action"
+msgstr "בחר הכל לפעולה בכמות גדולה"
+
+#: templates/ti-wishlist-user.php:37, templates/ti-wishlist.php:38
+msgid "Product Name"
+msgstr "שם מוצר"
+
+#: templates/ti-wishlist-user.php:38, templates/ti-wishlist.php:39
+msgid "Product"
+msgstr "מוצר"
+
+#: templates/ti-wishlist-user.php:41, templates/ti-wishlist.php:42
+msgid "Unit Price"
+msgstr "מחיר ליחידה"
+
+#: templates/ti-wishlist-user.php:44, templates/ti-wishlist.php:45
+msgid "Date Added"
+msgstr "תאריך הוסף"
+
+#: templates/ti-wishlist-user.php:47, templates/ti-wishlist.php:48
+msgid "Stock Status"
+msgstr "מצב המניה"
+
+#: templates/ti-wishlist-user.php:86, templates/ti-wishlist.php:87
+msgid "Select for bulk action"
+msgstr "בחר לפעולה בכמות גדולה"
+
+#: views/admin/export-import-settings.php:21
+msgid ""
+"You can import and export your TI WooCommerce Wishlist plugin settings here. "
+msgstr "אתה יכול לייבא ולייצא את הגדרות הפלאגין של TI WooCommerce שלך כאן."
+
+#: views/admin/export-import-settings.php:22
+msgid ""
+"This allows you to either backup the data, or to move your settings to a new "
+"WordPress instance."
+msgstr ""
+"זה מאפשר לך לגבות את הנתונים, או להעביר את ההגדרות שלך למופע וורדפרס חדש."
+
+#: views/admin/export-import-settings.php:33
+msgid "Import settings"
+msgstr "ייבא הגדרות"
+
+#: views/admin/export-import-settings.php:48
+msgid "Please upload the exported json file or"
+msgstr "נא להעלות את קובץ ה-json המיוצא או"
+
+#: views/admin/export-import-settings.php:50
+msgid "paste the entire json"
+msgstr "הדבק את כל ה-json"
+
+#: views/admin/export-import-settings.php:55
+msgid "Please paste the exported json file or"
+msgstr "נא הדבק את קובץ ה-json המיוצא או"
+
+#: views/admin/export-import-settings.php:57
+msgid "upload the exported file"
+msgstr "להעלות את הקובץ המיוצא"
+
+#: views/admin/export-import-settings.php:65
+msgid "Import"
+msgstr "יְבוּא"
+
+#: views/admin/export-import-settings.php:79
+msgid "Export settings"
+msgstr "ייצוא הגדרות"
+
+#: views/admin/export-import-settings.php:84
+msgid "Download the entire plugin configuration."
+msgstr "הורד את כל תצורת הפלאגין."
+
+#: views/admin/export-import-settings.php:88
+msgid "Export"
+msgstr "יְצוּא"
+
+#: views/admin/premium-features.php:21
+msgid "Premium version"
+msgstr "גרסת פרימיום"
+
+#: views/admin/premium-features.php:22
+msgid "benefit from all the features"
+msgstr "ליהנות מכל התכונות"
+
+#: views/admin/premium-features.php:24
+msgid "check premium options"
+msgstr "בדוק אפשרויות פרימיום"
+
+#: views/admin/premium-features.php:30
+msgid "Rate us please"
+msgstr "דרג אותנו בבקשה"
+
+#: views/admin/premium-features.php:32
+msgid "We’d really appreciate if you could spend a few minutes to"
+msgstr "נשמח מאוד אם תוכל להקדיש לכך כמה דקות"
+
+#: views/admin/premium-features.php:34
+msgid "leave a review"
+msgstr "להשאיר ביקורת"
+
+#: views/admin/premium-features.php:38
+msgid "We love making new friends"
+msgstr "אנחנו אוהבים להכיר חברים חדשים"
+
+#: views/admin/premium-features.php:39
+msgid "sign up for emails to get updates and instant discount"
+msgstr "הירשם לאימיילים כדי לקבל עדכונים והנחה מיידית"
+
+#: views/admin/premium-features.php:50
+msgid "Subscribe"
+msgstr "הירשם"
+
+#: views/admin/premium-features.php:78
+msgid "100% No-Risk 14-Days Money Back Guarantee"
+msgstr "100% ללא סיכון 14 יום החזר כספי"
+
+#: views/admin/premium-features.php:81
+msgid "Need customization?"
+msgstr "צריך התאמה אישית?"
+
+#: views/admin/premium-features.php:82
+msgid "Highly skilled WordPress experts are ready to satisfy your needs"
+msgstr "מומחי וורדפרס מיומנים במיוחד מוכנים לספק את הצרכים שלך"
+
+#: views/admin/premium-features.php:84
+msgid "get started now"
+msgstr "תתחיל עכשיו"
+
+#: views/admin/templates-status.php:17, views/admin/templates-status.php:18
+msgid "TI WooCommerce Wishlist Templates"
+msgstr "TI WooCommerce תבניות משאלות"
+
+#: views/admin/templates-status.php:18
+msgid ""
+"This section shows the files that are overriding the default TI WooCommerce "
+"Wishlist templates."
+msgstr ""
+"סעיף זה מציג את הקבצים שעוקפים את תבניות ברירת המחדל של TI WooCommerce ברירת "
+"המחדל."
+
+#: views/admin/templates-status.php:34, views/admin/templates-status.php:34, 
+#: views/admin/templates-status.php:27, views/admin/templates-status.php:27
+msgid "Overrides"
+msgstr "עוקפים"
+
+#: views/null.php:15
+msgid "Error 404"
+msgstr "תקלה 404"
+
+#: views/null.php:19
+msgid "Template \"%s\" not found!"
+msgstr "התבנית \"%s\" לא נמצאה!"
+
+#: views/wizard/finish.php:15
+msgid "Congratulations"
+msgstr "מזל טוב"
+
+#: views/wizard/finish.php:16
+msgid "Your Wishlist is ready!"
+msgstr "רשימת המשאלות שלך מוכנה!"
+
+#: views/wizard/finish.php:18
+msgid ""
+"You have set basic Wishlist settings. If you want to make more in-depth "
+"plugin setup you can make it in plugin settings page %s."
+msgstr ""
+"הגדרת הגדרות בסיסיות ברשימת משאלות. אם ברצונך לבצע הגדרת תוסף מעמיקה יותר, "
+"תוכל לבצע זאת בדף הגדרות הפלאגין %s."
+
+#: views/wizard/finish.php:18
+msgid "WooCommerce Wishlist Plugin Settings"
+msgstr "הגדרות פלאגין WooCommerce"
+
+#: views/wizard/finish.php:20
+msgid ""
+"Details about WooCommerce Wishlist Plugin options can be found in our %s."
+msgstr "ניתן למצוא פרטים על אפשרויות התוסף של WooCommerce wishes ב-%s שלנו."
+
+#: views/wizard/finish.php:20
+msgid "Online Documentation"
+msgstr "תיעוד מקוון"
+
+#: views/wizard/finish.php:25
+msgid "Documentation"
+msgstr "תיעוד"
+
+#: views/wizard/finish.php:28
+msgid "Wishlist Settings"
+msgstr "הגדרות ברשימת משאלות"
+
+#: views/wizard/footer.php:18
+msgid "Return to the WordPress Dashboard"
+msgstr "חזור ללוח המחוונים של וורדפרס"
+
+#: views/wizard/header.php:19
+msgid "TI Wishlist &rsaquo; %s"
+msgstr "TI wishlist &rsaquo; %s"
+
+#: views/wizard/intro.php:15
+msgid "Setup Wizard"
+msgstr "אשף התקנה"
+
+#: views/wizard/intro.php:16
+msgid "Welcome!"
+msgstr "ברוך הבא!"
+
+#: views/wizard/intro.php:21
+msgid ""
+"Thank you for choosing the Wishlist plugin by TemplateInvaders to enhance "
+"your WooCommerce store!"
+msgstr ""
+"תודה שבחרת בתוסף 'רצונות משאלות' של TemplateInvaders כדי לשפר את חנות "
+"WooCommerce שלך!"
+
+#: views/wizard/intro.php:22
+msgid "This quick setup wizard will help you configure the basic settings."
+msgstr "אשף התקנה מהיר זה יעזור לך להגדיר את ההגדרות הבסיסיות."
+
+#: views/wizard/intro.php:24
+msgid "let’s go"
+msgstr "בוא נלך"
+
+#: views/wizard/intro.php:27
+msgid "Not Right Now"
+msgstr "לא עכשיו"
+
+#: views/wizard/step-button.php:16
+msgid "Button options"
+msgstr "אפשרויות לחצנים"
+
+#: views/wizard/step-button.php:21
+msgid ""
+"Choose where to place “Add to Wishlist” button on the product page: before "
+"or after “Add to Cart” button."
+msgstr ""
+"בחר היכן למקם את כפתור \"הוסף לרשימת משאלות\" בדף המוצר: לפני או אחרי כפתור "
+"\"הוסף לעגלה\"."
+
+#: views/wizard/step-button.php:25
+msgid "TI  Wishlists > Style Options"
+msgstr "TI wishes > אפשרויות סגנון"
+
+#: views/wizard/step-button.php:27
+msgid ""
+"And set button text. You can add an icon, change button appearance and other "
+"settings in %s."
+msgstr ""
+"וקבע טקסט של כפתור. אתה יכול להוסיף סמל, לשנות את מראה הכפתור והגדרות אחרות "
+"ב-%s."
+
+#: views/wizard/step-button.php:27
+msgid " and "
+msgstr "ו"
+
+#: views/wizard/step-button.php:52
+msgid ""
+"You can also show “Add to Wishlist” button in Product listing. More options "
+"in %s."
+msgstr ""
+"אתה יכול גם להציג את כפתור \"הוסף לרשימת המשאלות\" ברשימת המוצר. אפשרויות "
+"נוספות ב-%s."
+
+#: views/wizard/step-button.php:57
+msgid "Show in Product listing"
+msgstr "הצג ברשימת המוצר"
+
+#: views/wizard/step-button.php:66
+msgid "\"Add to Wishlist\" Text in Product listing"
+msgstr "טקסט \"הוסף לרשימת משאלות\" ברשימת המוצר"
+
+#: views/wizard/step-button.php:78, views/wizard/step-page.php:61, 
+#: views/wizard/step-processing.php:39, views/wizard/step-social.php:85, 
+#: views/wizard/step-support.php:41
+msgid "Skip this step"
+msgstr "דלג על שלב זה"
+
+#: views/wizard/step-button.php:79, views/wizard/step-page.php:62, 
+#: views/wizard/step-processing.php:40, views/wizard/step-social.php:86, 
+#: views/wizard/step-support.php:42
+msgid "continue"
+msgstr "לְהַמשִׁיך"
+
+#: views/wizard/step-page-field.php:36
+msgid ""
+"Page with name “%s” aready exist! Please choose another page or create a new "
+"one"
+msgstr "עמוד עם השם \"%s\" קיים! אנא בחר עמוד אחר או צור דף חדש"
+
+#: views/wizard/step-page.php:18
+msgid ""
+"The following page needs to be applied so the “Wishlist” knows where it is. "
+msgstr "יש ליישם את הדף הבא כדי ש\"רשימת המשאלות\" תדע היכן הוא נמצא."
+
+#: views/wizard/step-page.php:20
+msgid ""
+"Choose from existing pages or leave this field empty and the Wishlist page "
+"will be created automatically:"
+msgstr "בחר מבין הדפים הקיימים או השאר שדה זה ריק ודף המשאלות ייווצר אוטומטית:"
+
+#: views/wizard/step-page.php:54
+msgid "Once created, this page can be managed from WordPress dashboard."
+msgstr "לאחר היצירה, ניתן לנהל את הדף הזה מלוח המחוונים של וורדפרס."
+
+#: views/wizard/step-processing.php:16
+msgid "Processing Options"
+msgstr "אפשרויות עיבוד"
+
+#: views/wizard/step-processing.php:20
+msgid ""
+"Following option allows you to set products to be automatically removed from "
+"a wishlist when added to cart."
+msgstr ""
+"האפשרות הבאה מאפשרת לך להגדיר שהמוצרים יוסרו אוטומטית מרשימת המשאלות בעת "
+"הוספה לעגלה."
+
+#: views/wizard/step-processing.php:24
+msgid "How products should be removed from Wishlist?"
+msgstr "כיצד יש להסיר מוצרים ממשאלת המשאלות?"
+
+#: views/wizard/step-social.php:22
+msgid ""
+"Allow people to share wishlists by adding social share buttons to Wishlist "
+"page."
+msgstr ""
+"אפשר לאנשים לשתף רשימות משאלות על ידי הוספת כפתורי שיתוף חברתי לדף המשאלות."
+
+#: views/wizard/step-social.php:62
+msgid "Show \"Clipboard\" Button"
+msgstr "הצג את כפתור \"לוח\"."
